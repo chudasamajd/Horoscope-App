@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(4, 3, 8);
+}
+.capsule-1,
+.capsule-2 {
+  width: 8rem;
+  height: 27rem;
+  background-color: rgb(210, 153, 30);
+  border-radius: 20rem;
+  position: absolute;
+  top: 70px;
+  right: 500px;
+}

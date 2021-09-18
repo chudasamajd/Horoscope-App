@@ -1,0 +1,36 @@
+@mixin capsule($height, $bg, $top, $right, $bgimg) {
+  width: 9rem;
+  height: $height;
+  background-color: $bg;
+  border-radius: 20rem;
+  position: fixed;
+  top: $top;
+  right: $right;
+  background-image: url("../images/#{$bgimg}.svg");
+  background-size: 140% 120%;
+  background-repeat: no-repeat;
+  background-position: -30px;
+}
+.capsules {
+  .capsule-1 {
+    @include capsule(26rem, #f4b840, 50px, 400px, aquarius);
+  }
+  .capsule-2 {
+    @include capsule(24rem, #e4692d, 500px, 400px, libra);
+  }
+  .capsule-3 {
+    @include capsule(25rem, #4294f0, -150px, 220px, pisces);
+  }
+  .capsule-4 {
+    @include capsule(26rem, #5cc87c, 280px, 220px, capricorn);
+  }
+  .capsule-5 {
+    @include capsule(26rem, #f4b840, 725px, 220px, gemini);
+  }
+  .capsule-6 {
+    @include capsule(25rem, #6e1fed, 125px, 50px, leo);
+  }
+  .capsule-7 {
+    @include capsule(26rem, #60d3da, 550px, 50px, sagittarius);
+  }
+}

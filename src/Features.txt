@@ -1,0 +1,20 @@
+Started Date : 16-07-2021
+
+16/17-07-2021 : Designing
+18-07-2021 : Learn Framer-motion
+19-07-2021 : Apply Framer-motion
+20/21-07-2021 : Learn Web Scraping ( Learn tool like axios,cheerio,puppeteer )
+Ref.:https://browntreelabs.com/scraping-sites-with-node/
+
+22-07-2021 : Apply Web Scraping and Finishing Project
+
+
+Problems comes in project:
+- cors problem (solution): (Tested Method): set proxy in package.json : https://www.youtube.com/watch?v=hxyp_LkKDdk
+                         : (Not Tested Method): https://www.youtube.com/watch?v=v_e7NH_iCjw
+
++ Web Scaraping / Axios
++ React Router
++ Page Transiction
+- SASS
+- Material UI (Vertical Tab)
